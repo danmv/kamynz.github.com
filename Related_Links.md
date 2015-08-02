@@ -12,4 +12,4 @@ de los Andes, Bogota, Colombia.
 
 ###Collaborators
 
-Alejandro Reyes => (http://bcem.uniandes.edu.co/wordpress/?page_id=44)
+[Alejandro Reyes](http://bcem.uniandes.edu.co/wordpress/?page_id=44)
