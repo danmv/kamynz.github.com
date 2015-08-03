@@ -232,7 +232,7 @@ of the first three components is ~20%.
 
 ## To-Do
 
-- `_I have to normalize` the input data for the count of oligonucleotide frequency of Escheria coli. 
+- `I have to normalize` the input data for the count of oligonucleotide frequency of Escheria coli. 
     
 
 
