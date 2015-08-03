@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: First result
 ---
 {% include JB/setup %}
