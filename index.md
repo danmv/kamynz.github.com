@@ -1,6 +1,9 @@
 ---
 layout: post
 title: First result
+description: ""
+category: Thesis
+tags: [thesis,first image]
 ---
 {% include JB/setup %}
 
