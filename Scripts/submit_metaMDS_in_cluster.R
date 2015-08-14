@@ -33,39 +33,12 @@ dist_for_MDS_normalized_by_max_Ecoli<-as.dist(matrix_for_MDS_normalized_by_max_E
 #dist matrix for MDS from normalized by colsums input data Ecoli
 dist_for_MDS_normalized_by_colsums_Ecoli<-as.dist(matrix_for_MDS_normalized_by_colsums_Ecoli)
 
-
-
 # loading all libraries 
 library(vegan)
-# library(ecodist)
-# library(labdsv)
-# library(ape)
-# library(ade4)
-# library(smacof)
-
-## using the different function and seeing how much it takes for each one
-
-## 1. Checking distance matrix
-
-## 2. Using cmdscale() to perform a classical scaling 
-
-## DOING CMDSCALE CLASICO
-
-# # se para cuando le pongo mis datos
-# system.time(MDS_from_cmdscale_non_normalized_Ecoli_input<-cmdscale(dist_matrix_for_MDS,k=3))
-# 
 
 #&&&&&&&&&&&&&&&&&&&&&&&& 1 &&&&&&&&&&&&&&&&&&&&&&&&#
 
 #Using metaMDS from vegan to do Non-metric multidimensional scaling 
-
-# data(dune)
-
-# para saber si son iguales
-
-# all(matrix_for_MDS_Ecoli==matrix_for_MDS_normalized_by_colsums_Ecoli)
-# 
-# all(matrix_for_MDS_normalized_by_colsums_Ecoli==matrix_for_MDS_normalized_by_max_Ecoli)
 
 ## IMPORTANTE
 
@@ -76,9 +49,6 @@ noshare should be FALSE. If you have negative data entries, metaMDS will
 set the previous to FALSE with a warning"
 
 ### Doing NMDS of Ecoli non-normalized
-
-#min(dist_matrix_for_MDS_Ecoli)
-
 
 Output_metaMDS_Ecoli_non_normalized<-metaMDS(comm = dist_matrix_for_MDS_Ecoli,distance="bray",
                                              k=3,wascores=F,autotransform=F,noshare=F)
