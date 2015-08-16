@@ -34,12 +34,12 @@ Also according to publications such as **_Compositional biases of bacterial geno
 I have decided to divide my main function in 6 smaller function that make different tasks:
 
 1. Function1: Processing_fragments.
-⋅⋅* Input => **PATH** where the fragmented genome of a organism is.
-⋅⋅* Output => **List** that contains all the fragments of a genome.
+       * Input => **PATH** where the fragmented genome of a organism is.
+       * Output => **List** that contains all the fragments of a genome.
 
 2. Function2: GettingFrequency_account.
-⋅⋅* Input => List of all the fragments, and the **k-mer** that is going to be counted.
-⋅⋅* Output => Matrix where the **rows** are the number of the fragments and the **columns** are the possible combinations of the chosen k-mer. For example, if the k-mer = 4, then there are 256 possible combinations (4^4 = 256).
+       * Input => List of all the fragments, and the **k-mer** that is going to be counted.
+       * Output => Matrix where the **rows** are the number of the fragments and the **columns** are the possible combinations of the chosen k-mer. For example, if the k-mer = 4, then there are 256 possible combinations (4^4 = 256).
 
 3. Function3: GettingFirstThreeComponents_MODI
 ..a. Input => The matrix that resulted from the function before.
