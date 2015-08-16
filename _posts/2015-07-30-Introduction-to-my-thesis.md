@@ -45,10 +45,10 @@ I have decided to divide my main function in 6 smaller function that make differ
       * Input => The matrix that resulted from the function before.
       * Output => R list that has different objects:
       
-        * The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and
+        a. The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and
   component3 = Blue.
-        * The total sum of the variances of the first 3 components.
-        * A matrix, where the rows are the names of the fragments and the columns are the first three components for each fragment.
+        b. The total sum of the variances of the first 3 components.
+        c. A matrix, where the rows are the names of the fragments and the columns are the first three components for each fragment.
 
 4. Function4: GeneratingHexVector_MODI.
       * Input => A matrix that has the first three components of the PCA for each fragment of the initial genome
