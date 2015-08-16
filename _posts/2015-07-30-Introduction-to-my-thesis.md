@@ -21,7 +21,13 @@ The objective of my thesis is to create an image from a genome but this image sh
 
 ## What are compositional biases of genomes
 
-A genome is a sequence with an alfabeth = {A,T,G,C}, so it is possible to count the frequency of each element
+A genome is a sequence of characters with an **alfabeth = {A,T,G,C}** so it is possible to count the frequency of each element or a combination of these elements. Then, it is important the length of the sequence that is going to be counted, which is denominated as **k-mer**. 
+
+Also according to publications such as _Compositional biases of bacterial genomes and evolutionary implications by S  Karlin, J Mrázek and A M Campbel in 1997_ and _Evolutionary Implications of Microbial Genome Tetranucleotide Frequency Biases by David T. Pride, Richard J. Meinersmann, Trudy M. Wassenaar and Martin J. Blase in 2003_, the different k-mer frequency biases have evolutionary consequences that can describe differences between organisms without resorting to methods based on homology comparison. 
+
+
+
+
 
 
 
