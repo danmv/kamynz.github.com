@@ -51,9 +51,9 @@ I have decided to divide my main function in 6 smaller function that make differ
       
       * Output => R list that has different objects:
 
-            **3a.** The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and component3 = Blue.
-            **3b.** The total sum of the variances of the first 3 components.
-            **3c.** A matrix, where the rows are the names of the fragments and the columns are the first three components for each fragment.
+            3A. The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and component3 = Blue.
+            3B. The total sum of the variances of the first 3 components.
+            3C. A matrix, where the rows are the names of the fragments and the columns are the first three components for each fragment.
 
 4. Function4: GeneratingHexVector_MODI.
      
