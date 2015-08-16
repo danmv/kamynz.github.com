@@ -9,7 +9,7 @@ tags: [Introduction]
 
 ------
 
-## **Important Note:** If you get lost reading this post, you can got to the [Introduction post](/_posts/2015-07-30-Introduction-to-my-thesis.md) to understant the objective of my thesis
+# **Important Note:** If you get lost reading this post, you can got to the [Introduction post](/_posts/2015-07-30-Introduction-to-my-thesis.md) to understant the objective of my thesis
 
 ------
 
