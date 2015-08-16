@@ -13,13 +13,15 @@ The objective of my thesis is to create an image from a genome but this image sh
 
 ------
 
-## Objective of my thesis ...
+## Objective of my thesis
 
 **_Main objective:_** Create a function that takes as input **compositional biases of genomes** and throws as output an image with biological sense.
 
 ------
 
-## What are compositional biases of genomes ...
+## What are compositional biases of genomes
+
+A genome is a sequence with an alfabeth = {A,T,G,C}, so it is possible to count the frequency of each element
 
 
 
