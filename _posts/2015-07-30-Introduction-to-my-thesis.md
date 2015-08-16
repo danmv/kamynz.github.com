@@ -59,7 +59,7 @@ I have decided to divide my main function in 6 smaller function that make differ
      
       * Input => A matrix that has the first three components of the PCA for each fragment of the initial genome
       
-      * Output => A vector of _length equals to the number of fragments_ that has the hex color code of each fragment
+      * Output => A vector of _length equals to the number of fragments_, where each element has the hex color code of each fragment
 
 5. Function5 and Function6: ObtainingDimensionsForImage(HexColorVector) and Creating_Image(nRows,nCols,lenColorMatrix,HexColorVector)
      
