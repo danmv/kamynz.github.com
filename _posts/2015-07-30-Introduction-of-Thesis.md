@@ -31,7 +31,7 @@ Also according to publications such as **_Compositional biases of bacterial geno
 
 ## Components of the main function
 
-#### I have decided to divide my main function in 6 smaller function that make different tasks:
+#### Note: I have decided to divide my main function in 6 smaller function that make different tasks:
 
 1. Function1: Processing_fragments.
      
