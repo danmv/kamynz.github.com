@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to my Thesis
+title: Introduction of Thesis
 description: "Introduction"
 category: Thesis
 tags: [Introduction]
