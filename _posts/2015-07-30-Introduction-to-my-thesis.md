@@ -44,6 +44,7 @@ I have decided to divide my main function in 6 smaller function that make differ
 3. Function3: GettingFirstThreeComponents_MODI.
       * Input => The matrix that resulted from the function before.
       * Output => R list that has different objects:
+
             * The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and
   component3 = Blue.
             * The total sum of the variances of the first 3 components.
