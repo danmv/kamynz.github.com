@@ -36,6 +36,7 @@ I have decided to divide my main function in 6 smaller function that make differ
 1. Function1: Processing_fragments.
      
       * Input => **_PATH_** where the fragmented genome of a organism is.
+      
       * Output => **_List_** that contains all the fragments of a genome.
 
 2. Function2: GettingFrequency_account.
