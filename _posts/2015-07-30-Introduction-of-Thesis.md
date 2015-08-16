@@ -35,19 +35,19 @@ Also according to publications such as **_Compositional biases of bacterial geno
 
 1. Function1: Processing_fragments.
      
-      * Input => **_PATH_** where the fragmented genome of a organism is.
+      * Input <= **_PATH_** where the fragmented genome of a organism is.
       
       * Output => **_List_** that contains all the fragments of a genome.
 
 2. Function2: GettingFrequency_account.
      
-      * Input => List of all the fragments, and the **_k-mer_** that is going to be counted.
+      * Input <= List of all the fragments, and the **_k-mer_** that is going to be counted.
       
       * Output => Matrix where the **_rows_** are the number of the fragments and the **_columns_** are the possible combinations of the chosen k-mer. For example, if the k-mer = 4, then there are 256 possible combinations (4^4 = 256).
 
 3. Function3: GettingFirstThreeComponents_MODI.
      
-      * Input => The matrix that resulted from the function before.
+      * Input <= The matrix that resulted from the function before.
       
       * Output => R list that has different objects:
 
@@ -57,7 +57,7 @@ Also according to publications such as **_Compositional biases of bacterial geno
 
 4. Function4: GeneratingHexVector_MODI.
      
-      * Input => A matrix that has the first three components of the PCA for each fragment of the initial genome
+      * Input <= A matrix that has the first three components of the PCA for each fragment of the initial genome
       
       * Output => A vector of **_length equals to the number of fragments_**, where each element has the hex color code of each fragment
 
