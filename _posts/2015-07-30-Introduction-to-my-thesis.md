@@ -34,23 +34,25 @@ Also according to publications such as **_Compositional biases of bacterial geno
 I have decided to divide my main function in 6 smaller function that make different tasks:
 
 1. Function1: Processing_fragments.
-       * a. Input => **PATH** where the fragmented genome of a organism is.
-       * b. Output => **List** that contains all the fragments of a genome.
+       * Input => **PATH** where the fragmented genome of a organism is.
+       * Output => **List** that contains all the fragments of a genome.
 
 2. Function2: GettingFrequency_account.
-       * a. Input => List of all the fragments, and the **k-mer** that is going to be counted.
-       * b. Output => Matrix where the **rows** are the number of the fragments and the **columns** are the possible combinations of the chosen k-mer. For example, if the k-mer = 4, then there are 256 possible combinations (4^4 = 256).
+       * Input => List of all the fragments, and the **k-mer** that is going to be counted.
+       * Output => Matrix where the **rows** are the number of the fragments and the **columns** are the possible combinations of the chosen k-mer. For example, if the k-mer = 4, then there are 256 possible combinations (4^4 = 256).
 
 3. Function3: GettingFirstThreeComponents_MODI.
       * Input => The matrix that resulted from the function before.
       * Output => R list that has different objects:
+      
         * The variance of the three components resulted from the PCA, where component1 = Red, component2 = Green, and
   component3 = Blue.
         * The total sum of the variances of the first 3 components.
         * A matrix, where the rows are the names of the fragments and the columns are the first three components for each fragment.
 
-4. Function4: GeneratingHexVector_MODI
-..a. Input => 
+4. Function4: GeneratingHexVector_MODI.
+      * Input => A matrix that has the first three components of the PCA for each fragment of the initial genome
+      * Output => A vector of _length equals to the number of fragments_ that has the hex color code of each fragment
 
 
 
